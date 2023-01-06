@@ -7,7 +7,7 @@ import { Alert, Image , View, TouchableOpacity, ScrollView, Pressable, Keyboard,
 import styled from "styled-components";
 import color from "../../config/color";
 import * as Typography from "../../config/Typography";
-import { BACKEND } from "../../config/config";
+import { BACKEND, tester } from "../../config/config";
 
 // library 
 import * as Yup from "yup";
@@ -20,7 +20,8 @@ import SubmitBtn from "../../components/forms/SubmitBtn";
 
 // redux && helpers
 import { useDispatch } from 'react-redux';
-import { openLink } from "../../helpers/functions";
+import { openLink, storeData, storeToken } from "../../helpers/functions";
+import { login, setBlock } from "../../store/actions";
 
 // yup will set before fetch 
 const validationSchema = Yup.object().shape({
@@ -101,6 +102,90 @@ const Signup = ({ navigation }) => {
     })
   }
 
+  const testerSignin = () => {
+    fetch(BACKEND + '/user/signin', 
+    {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        "email":tester.email, 
+        "password":tester.pwd,
+      })
+    })
+    .then(res =>  {
+      // console.log(res.status)
+      if (res.status === 200 ) {
+        res.json().then(result => {
+          dispatch(login(
+            "",
+            "",
+            result.name,
+            tester.email,
+            result.id,
+            result.phoneNumber,
+            result.job,
+            result.education,
+            result.description,
+            result.avatar,
+            result.title,
+            result.birthDate,
+            result.gender,
+          ))
+
+          const User = JSON.stringify({ 
+            name: result.name,
+            email:tester.email,
+            id:result.id,
+            phoneNumber: result.phoneNumber,
+            job: result.job,
+            education: result.education,
+            description: result.description,
+            avatar:result.avatar,
+            title:result.title,
+            birthDate: result.birthDate,
+            gender:result.gender,
+          })
+          // console.log(result.blockingIds)
+          storeData('LoginData', User )
+          if (result.blockingIds) {
+            storeData("blockIds", result.blockingIds)
+            const blcIds = JSON.parse("[" + result.blockingIds+ "]")
+            dispatch(setBlock(blcIds))
+          }
+          storeData("storedFollowingIds", result.user_following) 
+          storeToken("accessToken", result.accessToken)
+          storeToken("refreshToken", result.refreshToken)
+          storeData("LandingType", "Login")
+          navigation.navigate("HomeTab")
+          // Alert.alert("Logged In!")
+          setIsLoading(false)
+        })
+      }
+      else if ( res.status === 404) {
+        res.json().then(result => {
+          if( result.msg == "User with that email does not exist. Please signup!"){
+            setIsLoading(false)
+            Alert.alert(" This email does not exist. Please signup!")
+          }
+        })     
+      }
+      else if (res.status === 401 || res.status === 400) {
+        res.json().then(result => {
+          setIsLoading(false)
+          if (result.message) Alert.alert(result.message);
+          if (result.msg) Alert.alert(result.msg);
+        })
+      }
+      else {
+        setIsLoading(false)
+        Alert.alert("Some error happened, Please try again later ")
+      }
+    })
+  }
+
   const touUri = "https://linkingbook.io/term-of-use/"
   const plcyUri = "https://linkingbook.io/data-policy/"
 
@@ -143,7 +228,6 @@ const Signup = ({ navigation }) => {
               </View>
             </View>
             <Input>
-              
               <TextInput.email
                 placeholder="email"
                 name="email"
@@ -154,11 +238,9 @@ const Signup = ({ navigation }) => {
                 textContentType="emailAddress"
                 // onChangeText={(text) => setEmail(text)}
                 onChangeText={(text) => setEmail(text)}
-
               />
             </Input>
             <Input>
-              
               <TextInput.AuthPw
                 placeholder="password"
                 name="password"
@@ -204,6 +286,20 @@ const Signup = ({ navigation }) => {
           <Typography.H3 color={color.darkBrown}>Log in</Typography.H3>
         </TouchableOpacity>
       </View>
+      <View style={{ width:"60%", paddingTop:15, height:65, alignSelf:"center", alignItems:"center"}}>
+        {/* <SubmitBtn title="Contunue as tester" /> */}
+        <TouchableOpacity 
+          style={{
+            // backgroundColor:color.lightBrown,
+            padding:10,
+            borderRadius:10
+          }}
+          onPress = {() => testerSignin()}
+        >
+          <Text style={{fontSize:15, fontWeight:"300"}}>or Contunue as tester</Text>
+        </TouchableOpacity>
+      </View>
+
     </ScrollView>
   );
 };

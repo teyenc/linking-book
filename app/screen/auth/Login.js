@@ -19,7 +19,7 @@ import SubmitBtn from "../../components/forms/SubmitBtn";
 
 // redux && helpers
 import { useDispatch, useSelector} from 'react-redux';
-import {login, setBlock } from "../../store/actions";
+import { login, setBlock } from "../../store/actions";
 import { storeData, storeToken } from "../../helpers/functions";
 
 // yup will set before fetch 

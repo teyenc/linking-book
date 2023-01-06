@@ -1,0 +1,234 @@
+Date : 2022-11-16 09:44:56
+Directory : /Users/choujordan/Desktop/myCode/fullStack/linking-book
+Total : 153 files,  16529 codes, 1498 comments, 2225 blanks, all 20252 lines
+
+Languages
++-----------------+------------+------------+------------+------------+------------+
+| language        | files      | code       | comment    | blank      | total      |
++-----------------+------------+------------+------------+------------+------------+
+| JavaScript      |        127 |     15,461 |      1,305 |      2,092 |     18,858 |
+| XML             |          7 |        500 |         27 |         14 |        541 |
+| Groovy          |          3 |        126 |        122 |         27 |        275 |
+| Java            |          3 |        126 |         25 |         19 |        170 |
+| JSON            |          5 |        120 |          0 |          2 |        122 |
+| Objective-C     |          3 |        110 |          0 |         29 |        139 |
+| Batch           |          1 |         68 |          0 |         22 |         90 |
+| Java Properties |          2 |          8 |         19 |          8 |         35 |
+| Markdown        |          1 |          5 |          0 |          8 |         13 |
+| C++             |          1 |          5 |          0 |          4 |          9 |
++-----------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                       | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                          |        153 |     16,529 |      1,498 |      2,225 |     20,252 |
+| __tests__                                                                                                                  |          1 |          7 |          4 |          4 |         15 |
+| android                                                                                                                    |         14 |        381 |        191 |         89 |        661 |
+| android/app                                                                                                                |          9 |        269 |        165 |         55 |        489 |
+| android/app/src                                                                                                            |          8 |        179 |         50 |         32 |        261 |
+| android/app/src/debug                                                                                                      |          2 |         70 |          8 |          9 |         87 |
+| android/app/src/debug/java                                                                                                 |          1 |         59 |          8 |          6 |         73 |
+| android/app/src/debug/java/com                                                                                             |          1 |         59 |          8 |          6 |         73 |
+| android/app/src/debug/java/com/linkingbook                                                                                 |          1 |         59 |          8 |          6 |         73 |
+| android/app/src/main                                                                                                       |          6 |        109 |         42 |         23 |        174 |
+| android/app/src/main/java                                                                                                  |          2 |         67 |         17 |         13 |         97 |
+| android/app/src/main/java/com                                                                                              |          2 |         67 |         17 |         13 |         97 |
+| android/app/src/main/java/com/linkingbook                                                                                  |          2 |         67 |         17 |         13 |         97 |
+| android/app/src/main/res                                                                                                   |          3 |         19 |         25 |          7 |         51 |
+| android/app/src/main/res/drawable                                                                                          |          1 |         11 |         23 |          3 |         37 |
+| android/app/src/main/res/values                                                                                            |          2 |          8 |          2 |          4 |         14 |
+| android/gradle                                                                                                             |          1 |          5 |          0 |          1 |          6 |
+| android/gradle/wrapper                                                                                                     |          1 |          5 |          0 |          1 |          6 |
+| app                                                                                                                        |        121 |     15,754 |      1,285 |      2,067 |     19,106 |
+| app/asset                                                                                                                  |          1 |        401 |          1 |          0 |        402 |
+| app/components                                                                                                             |         37 |      3,744 |        353 |        475 |      4,572 |
+| app/components/Bars&Header                                                                                                 |          3 |        195 |          4 |         32 |        231 |
+| app/components/Blocks                                                                                                      |         10 |      2,205 |         71 |        221 |      2,497 |
+| app/components/Img&VideoInput                                                                                              |          6 |        139 |        126 |         52 |        317 |
+| app/components/InPageCpnt                                                                                                  |          4 |        456 |        131 |         50 |        637 |
+| app/components/Picker                                                                                                      |          5 |        311 |          9 |         48 |        368 |
+| app/components/forms                                                                                                       |          4 |        229 |          9 |         40 |        278 |
+| app/config                                                                                                                 |          2 |        182 |          2 |         29 |        213 |
+| app/data                                                                                                                   |          5 |        730 |         10 |         14 |        754 |
+| app/helpers                                                                                                                |          4 |        522 |         67 |         64 |        653 |
+| app/navigation                                                                                                             |          8 |        987 |         35 |         93 |      1,115 |
+| app/patterns                                                                                                               |          4 |        324 |         30 |         70 |        424 |
+| app/screen                                                                                                                 |         44 |      8,125 |        770 |      1,220 |     10,115 |
+| app/screen/AccountScreens                                                                                                  |         12 |      2,135 |        140 |        319 |      2,594 |
+| app/screen/ExploreScreens                                                                                                  |          3 |        814 |         97 |        113 |      1,024 |
+| app/screen/HomeScreens                                                                                                     |          1 |        323 |         51 |         49 |        423 |
+| app/screen/PostScreens                                                                                                     |          3 |        408 |         61 |         66 |        535 |
+| app/screen/SavedScreens                                                                                                    |          4 |        652 |         67 |        107 |        826 |
+| app/screen/SharedScreens                                                                                                   |         10 |      2,278 |        204 |        305 |      2,787 |
+| app/screen/auth                                                                                                            |         11 |      1,515 |        150 |        261 |      1,926 |
+| app/store                                                                                                                  |         11 |        481 |          3 |         53 |        537 |
+| app/styles                                                                                                                 |          4 |        211 |          9 |         43 |        263 |
+| app/styles/Component                                                                                                       |          2 |        174 |          8 |         36 |        218 |
+| app/util                                                                                                                   |          1 |         47 |          5 |          6 |         58 |
+| ios                                                                                                                        |          7 |        205 |          1 |         35 |        241 |
+| ios/linkingBook                                                                                                            |          6 |        154 |          1 |         20 |        175 |
+| ios/linkingBook/Images.xcassets                                                                                            |          2 |         44 |          0 |          1 |         45 |
+| ios/linkingBook/Images.xcassets/AppIcon.appiconset                                                                         |          1 |         38 |          0 |          0 |         38 |
+| ios/linkingBookTests                                                                                                       |          1 |         51 |          0 |         15 |         66 |
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
+| filename                                                                                                                   | language        | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/.eslintrc.js                                                       | JavaScript      |          4 |          0 |          1 |          5 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/.prettierrc.js                                                     | JavaScript      |          7 |          0 |          1 |          8 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/.watchmanconfig                                                    | JSON            |          1 |          0 |          0 |          1 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/App.js                                                             | JavaScript      |         73 |          8 |         13 |         94 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/README.md                                                          | Markdown        |          5 |          0 |          8 |         13 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/__tests__/App-test.js                                              | JavaScript      |          7 |          4 |          4 |         15 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/app/build.gradle                                           | Groovy          |         90 |        115 |         23 |        228 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/app/src/debug/AndroidManifest.xml                          | XML             |         11 |          0 |          3 |         14 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/app/src/debug/java/com/linkingbook/ReactNativeFlipper.java | Java            |         59 |          8 |          6 |         73 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/app/src/main/AndroidManifest.xml                           | XML             |         23 |          0 |          3 |         26 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/app/src/main/java/com/linkingbook/MainActivity.java        | Java            |          8 |          4 |          4 |         16 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/app/src/main/java/com/linkingbook/MainApplication.java     | Java            |         59 |         13 |          9 |         81 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/app/src/main/res/drawable/rn_edit_text_material.xml        | XML             |         11 |         23 |          3 |         37 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/app/src/main/res/values/strings.xml                        | XML             |          3 |          0 |          1 |          4 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/app/src/main/res/values/styles.xml                         | XML             |          5 |          2 |          3 |         10 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/build.gradle                                               | Groovy          |         33 |          7 |          3 |         43 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/gradle.properties                                          | Java Properties |          3 |         19 |          7 |         29 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/gradle/wrapper/gradle-wrapper.properties                   | Java Properties |          5 |          0 |          1 |          6 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/gradlew.bat                                                | Batch           |         68 |          0 |         22 |         90 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/android/settings.gradle                                            | Groovy          |          3 |          0 |          1 |          4 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app.json                                                           | JSON            |          4 |          0 |          0 |          4 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/asset/evil-Icons.svg                                           | XML             |        401 |          1 |          0 |        402 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/AppText.js                                          | JavaScript      |         41 |          0 |          6 |         47 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Bars&Header/Header.js                               | JavaScript      |         59 |          2 |         10 |         71 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Bars&Header/NavBar.js                               | JavaScript      |         92 |          1 |         14 |        107 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Bars&Header/SearchBar.js                            | JavaScript      |         44 |          1 |          8 |         53 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Blocks/Button.js                                    | JavaScript      |        353 |         12 |         39 |        404 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Blocks/Card.js                                      | JavaScript      |        112 |          1 |         18 |        131 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Blocks/Cards.js                                     | JavaScript      |        379 |          7 |         36 |        422 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Blocks/ImgCarousel.js                               | JavaScript      |         36 |          4 |          8 |         48 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Blocks/ImgSlider.js                                 | JavaScript      |         47 |         11 |          8 |         66 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Blocks/ImgSliderItem.js                             | JavaScript      |         19 |          3 |          7 |         29 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Blocks/List.js                                      | JavaScript      |        264 |          3 |         22 |        289 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Blocks/Modals.js                                    | JavaScript      |        483 |         24 |         60 |        567 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Blocks/RNUrlPreview.js                              | JavaScript      |        261 |          4 |         12 |        277 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Blocks/RNUrlPreviewView.js                          | JavaScript      |        251 |          2 |         11 |        264 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/DeleteItem.js                                       | JavaScript      |         23 |          0 |          6 |         29 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Highlights.js                                       | JavaScript      |        107 |          1 |         10 |        118 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Img&VideoInput/ImageInput.js                        | JavaScript      |         19 |         40 |         10 |         69 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Img&VideoInput/ImageInputList.js                    | JavaScript      |         26 |          3 |          7 |         36 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Img&VideoInput/ImgInput.js                          | JavaScript      |         19 |         39 |         11 |         69 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Img&VideoInput/ImgInputList.js                      | JavaScript      |         28 |          2 |          6 |         36 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Img&VideoInput/VideoInput.js                        | JavaScript      |         20 |         40 |         12 |         72 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Img&VideoInput/VideoInputList.js                    | JavaScript      |         27 |          2 |          6 |         35 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/InPageCpnt/Account.js                               | JavaScript      |         39 |          1 |          8 |         48 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/InPageCpnt/HomePage.js                              | JavaScript      |         72 |          0 |          4 |         76 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/InPageCpnt/PostDetailCpnt.js                        | JavaScript      |        219 |        127 |         27 |        373 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/InPageCpnt/UserProfileCpnt.js                       | JavaScript      |        126 |          3 |         11 |        140 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Picker/AppPicker.js                                 | JavaScript      |         95 |          2 |         10 |        107 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Picker/Counter.js                                   | JavaScript      |         67 |          2 |          9 |         78 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Picker/PickerItem.js                                | JavaScript      |         15 |          1 |          5 |         21 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Picker/PriceFilter.js                               | JavaScript      |         89 |          4 |         16 |        109 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Picker/Timepicker.js                                | JavaScript      |         45 |          0 |          8 |         53 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/Rating.js                                           | JavaScript      |         20 |          1 |          5 |         26 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/SafeScreen.js                                       | JavaScript      |         18 |          1 |          5 |         24 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/forms/AppForm.js                                    | JavaScript      |         14 |          0 |          3 |         17 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/forms/AppInput.js                                   | JavaScript      |        185 |          7 |         28 |        220 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/forms/ErrorMessage.js                               | JavaScript      |         14 |          1 |          4 |         19 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/components/forms/SubmitBtn.js                                  | JavaScript      |         16 |          1 |          5 |         22 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/config/Typography.js                                           | JavaScript      |        168 |          0 |         29 |        197 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/config/color.js                                                | JavaScript      |         14 |          2 |          0 |         16 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/data/SearchType.js                                             | JavaScript      |         39 |          6 |          2 |         47 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/data/posts.js                                                  | JavaScript      |        159 |          0 |          8 |        167 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/data/report.js                                                 | JavaScript      |         38 |          4 |          1 |         43 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/data/tagOptions.js                                             | JavaScript      |        481 |          0 |          3 |        484 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/data/user.js                                                   | JavaScript      |         13 |          0 |          0 |         13 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/helpers/ApiFunctions.js                                        | JavaScript      |         84 |         15 |         14 |        113 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/helpers/BGFunctions.js                                         | JavaScript      |         15 |          3 |          3 |         21 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/helpers/api.js                                                 | JavaScript      |        136 |          8 |          6 |        150 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/helpers/functions.js                                           | JavaScript      |        287 |         41 |         41 |        369 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/navigation/AccountStack.js                                     | JavaScript      |        196 |          4 |         12 |        212 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/navigation/AuthStack.js                                        | JavaScript      |        373 |          8 |         24 |        405 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/navigation/ExploreStack.js                                     | JavaScript      |        106 |          3 |         12 |        121 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/navigation/HomeStack.js                                        | JavaScript      |         92 |          4 |         11 |        107 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/navigation/HomeTab.js                                          | JavaScript      |         68 |          6 |         10 |         84 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/navigation/PostStack.js                                        | JavaScript      |         31 |          6 |         14 |         51 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/navigation/SavedStack.js                                       | JavaScript      |        112 |          3 |          7 |        122 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/navigation/navigationTheme.js                                  | JavaScript      |          9 |          1 |          3 |         13 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/patterns/AnswererCard.js                                       | JavaScript      |         73 |          9 |         16 |         98 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/patterns/CategoryCard.js                                       | JavaScript      |         79 |          7 |         18 |        104 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/patterns/SearchResultsCard copy.js                             | JavaScript      |         79 |          7 |         18 |        104 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/patterns/SliderView.js                                         | JavaScript      |         93 |          7 |         18 |        118 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/AccountScreens/AccountSettings.js                       | JavaScript      |         74 |          5 |         16 |         95 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/AccountScreens/Accounts.js                              | JavaScript      |        173 |          6 |         21 |        200 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/AccountScreens/CheckEmail.js                            | JavaScript      |        162 |          6 |         16 |        184 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/AccountScreens/Confirm.js                               | JavaScript      |        108 |          6 |         16 |        130 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/AccountScreens/ConfirmDeleteUser.js                     | JavaScript      |        171 |          6 |         23 |        200 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/AccountScreens/EditPage.js                              | JavaScript      |        231 |         17 |         26 |        274 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/AccountScreens/EditUserProfile.js                       | JavaScript      |        261 |         10 |         37 |        308 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/AccountScreens/MyPostDetail.js                          | JavaScript      |        251 |         13 |         45 |        309 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/AccountScreens/MyPosts.js                               | JavaScript      |        202 |         11 |         28 |        241 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/AccountScreens/PersonalInfo.js                          | JavaScript      |        185 |         20 |         36 |        241 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/AccountScreens/ResetEmail.js                            | JavaScript      |        150 |          7 |         20 |        177 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/AccountScreens/UserProfile.js                           | JavaScript      |        167 |         33 |         35 |        235 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/ExploreScreens/Explore.js                               | JavaScript      |        124 |         17 |         24 |        165 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/ExploreScreens/ExploreListing.js                        | JavaScript      |        481 |         46 |         56 |        583 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/ExploreScreens/SearchUser.js                            | JavaScript      |        209 |         34 |         33 |        276 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/HomeScreens/HomePage.js                                 | JavaScript      |        323 |         51 |         49 |        423 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/PostScreens/Blank.js                                    | JavaScript      |         17 |          1 |          7 |         25 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/PostScreens/PostPage.js                                 | JavaScript      |        188 |         18 |         29 |        235 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/PostScreens/PostPage1.js                                | JavaScript      |        203 |         42 |         30 |        275 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SavedScreens/AddCollection.js                           | JavaScript      |        102 |          5 |         12 |        119 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SavedScreens/PostsInMyCollection.js                     | JavaScript      |        204 |         33 |         42 |        279 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SavedScreens/UpdateCollectionName.js                    | JavaScript      |         79 |          8 |         16 |        103 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SavedScreens/UserCollection.js                          | JavaScript      |        267 |         21 |         37 |        325 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SharedScreens/Collections.js                            | JavaScript      |        157 |          9 |         19 |        185 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SharedScreens/Comments.js                               | JavaScript      |        338 |         33 |         39 |        410 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SharedScreens/EditPage.js                               | JavaScript      |        244 |         20 |         34 |        298 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SharedScreens/PostDetail.js                             | JavaScript      |        543 |         31 |         69 |        643 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SharedScreens/PostsInCollection.js                      | JavaScript      |        197 |         34 |         37 |        268 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SharedScreens/Report.js                                 | JavaScript      |        122 |          8 |         15 |        145 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SharedScreens/ReportOther.js                            | JavaScript      |        123 |         12 |         14 |        149 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SharedScreens/UserList.js                               | JavaScript      |        227 |         38 |         31 |        296 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SharedScreens/UserProfile.js                            | JavaScript      |        318 |         19 |         45 |        382 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/SharedScreens/index.js                                  | JavaScript      |          9 |          0 |          2 |         11 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/auth/AddTitle.js                                        | JavaScript      |        108 |          6 |         23 |        137 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/auth/AppIntro.js                                        | JavaScript      |         47 |          3 |         10 |         60 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/auth/Forget.js                                          | JavaScript      |        113 |         24 |         30 |        167 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/auth/Guide1.js                                          | JavaScript      |         54 |         12 |         13 |         79 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/auth/Guide2.js                                          | JavaScript      |        193 |         17 |         28 |        238 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/auth/Login.js                                           | JavaScript      |        182 |         13 |         25 |        220 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/auth/RecUser.js                                         | JavaScript      |        172 |         35 |         37 |        244 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/auth/ResetPwd.js                                        | JavaScript      |        221 |          9 |         29 |        259 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/auth/Signup.js                                          | JavaScript      |        193 |         12 |         33 |        238 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/auth/VerificationCode.js                                | JavaScript      |        213 |         19 |         31 |        263 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/screen/auth/test.js                                            | JavaScript      |         19 |          0 |          2 |         21 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/store/Modal.js                                                 | JavaScript      |         20 |          0 |          3 |         23 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/store/actions.js                                               | JavaScript      |        189 |          1 |         28 |        218 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/store/auth.js                                                  | JavaScript      |         97 |          0 |          2 |         99 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/store/collections.js                                           | JavaScript      |         13 |          0 |          2 |         15 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/store/folAct.js                                                | JavaScript      |         20 |          0 |          2 |         22 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/store/notifications.js                                         | JavaScript      |         22 |          0 |          2 |         24 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/store/post.js                                                  | JavaScript      |         46 |          0 |          2 |         48 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/store/postCard.js                                              | JavaScript      |         20 |          0 |          2 |         22 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/store/reducer.js                                               | JavaScript      |         19 |          0 |          3 |         22 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/store/store.js                                                 | JavaScript      |          9 |          2 |          5 |         16 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/store/tags.js                                                  | JavaScript      |         26 |          0 |          2 |         28 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/styles/Common.js                                               | JavaScript      |         33 |          1 |          6 |         40 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/styles/Component/CardStyle.js                                  | JavaScript      |        120 |          4 |         23 |        147 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/styles/Component/ModalStyle.js                                 | JavaScript      |         54 |          4 |         13 |         71 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/styles/index.js                                                | JavaScript      |          4 |          0 |          1 |          5 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/app/util/notificationService.js                                    | JavaScript      |         47 |          5 |          6 |         58 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/babel.config.js                                                    | JavaScript      |          3 |          0 |          1 |          4 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/index.js                                                           | JavaScript      |          4 |          3 |          3 |         10 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/ios/linkingBook/AppDelegate.h                                      | C++             |          5 |          0 |          4 |          9 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/ios/linkingBook/AppDelegate.m                                      | Objective-C     |         52 |          0 |         11 |         63 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/ios/linkingBook/Images.xcassets/AppIcon.appiconset/Contents.json   | JSON            |         38 |          0 |          0 |         38 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/ios/linkingBook/Images.xcassets/Contents.json                      | JSON            |          6 |          0 |          1 |          7 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/ios/linkingBook/LaunchScreen.storyboard                            | XML             |         46 |          1 |          1 |         48 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/ios/linkingBook/main.m                                             | Objective-C     |          7 |          0 |          3 |         10 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/ios/linkingBookTests/linkingBookTests.m                            | Objective-C     |         51 |          0 |         15 |         66 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/metro.config.js                                                    | JavaScript      |         10 |          6 |          2 |         18 |
+| /Users/choujordan/Desktop/myCode/fullStack/linking-book/package.json                                                       | JSON            |         71 |          0 |          1 |         72 |
+| Total                                                                                                                      |                 |     16,529 |      1,498 |      2,225 |     20,252 |
++----------------------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
