@@ -1,6 +1,6 @@
 # Linking Book
 
-![alt text](https://github.com/19705cty/linking-book/blob/main/ReadmeIMGs/Readme-Banner.png?raw=true)
+![alt text](https://github.com/19705cty/linking-book/blob/main/ReadmeIMGs/ReadmeBanner.png?raw=true)
 
 ## Links:
 App: https://apps.apple.com/us/app/linking-book/id1624364277 <br />
