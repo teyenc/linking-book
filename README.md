@@ -5,7 +5,7 @@
 ## Links:
 App: https://apps.apple.com/us/app/linking-book/id1624364277 <br />
 Email / password for tester: 10@gmail.com / 1234567890 <br />
-Website: linkingbook.io <br />
+Website: https://linkingbook.io <br />
    
 ## Overview
 
