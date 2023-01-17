@@ -1,12 +1,23 @@
 # Linking Book
 
+## Links:
+App: https://apps.apple.com/us/app/linking-book/id1624364277 <br />
+Email / password for tester: 10@gmail.com / 1234567890 <br />
+Website: linkingbook.io <br />
+   
+## Overview
 
-Linking Book is a place where people share what they read, and explore what others read. Anyone can discuss and save the topic they like, and follow people they admire.
+Linking Book is a social platform where users can share what they read. Users can like, search, comment and save posts into collections. Linking Book also empower users to customize their feed and follow others to get only information that they want.
+This project is used for application for Y Combinator 2022.
 
-Linking Book is designed to filter out junk information and misinformation by enabling users to decide what information they want to see.
+## Specifications
+### Framework: 
+React Native, Express.js, Expo 
+### Database: 
+PostgreSQL 
+### Tools:
+AWS EC2(ubuntu), Nginx, Route53, CloudFront, AWS S3, JSON Web Token, AWS SES, Redis, Redux, CI/CD, git. Node.js, Firebase Cloud Messaging, Apple Push Notification service.
 
+## Backend Structure:
 
-## Tech Stack 
-
-
-The main tech stacks of frontend are React Native and Redux.
+## Frontend Structure:
