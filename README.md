@@ -12,7 +12,6 @@ Website: linkingbook.io <br />
 Linking Book is a social platform where users can share what they read. Users can like, search, comment and save posts into collections. Linking Book also empower users to customize their feed and follow others to get only information that they want.
 This project is used for application for Y Combinator 2022.
 
-## Specifications
 ### Framework: 
 React Native, Express.js, Expo 
 ### Database: 
