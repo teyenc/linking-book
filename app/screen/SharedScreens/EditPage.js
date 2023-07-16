@@ -51,7 +51,7 @@ const SharedEditPage = ({ navigation, route }) =>  {
   const [ isPrivate, setIsPrivate ] = useState( Post.isPrivate ? Post.isPrivate : false);
   const toggleSwitch = () => setIsPrivate(previousState => !previousState)
 
-  // tag part----------------------------------------------
+  // tag part
 
   const dispatch = useDispatch()
 

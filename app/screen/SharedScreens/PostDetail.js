@@ -114,8 +114,7 @@ const SharedPostDetail = ({ route, navigation }) => {
     })
   }
 
-  //Load firstdata -----------------------------------------------------
-
+  //Load firstdata 
   useEffect(() => {
     setPageLoaded(0);
     LoadFirstData();
@@ -434,7 +433,8 @@ const SharedPostDetail = ({ route, navigation }) => {
       id: postId,
       tags:tags,
       link:link,
-      title:title
+      title:title,
+      imageLink: imageLink
     }
     setShowPostSettings(false)
     navigation.navigate(routeName + "EditPage", {postData: data})
