@@ -53,7 +53,7 @@ const HomeTab = () => (
           <EvilIcons name="plus" color={color} size={size} />
         ),
       }}
-      tabBarVisible={false}
+      // tabBarVisible={false}
 
     />
     <Tab.Screen
